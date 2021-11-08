@@ -1,1 +1,194 @@
+/*main black #757575
+second black #212121
+third black #000000
+main white #ffffff
+second white rgba(255, 255, 255, 0.6)
+active blu #2196F3
+back-ground white #ffffff
+back-ground black #2F303A
+back-ground grey #F5F4FA */
 
+:root {
+  --active-blu: #2196f3;
+  --main-black: #757575;
+  --second-black: #212121;
+  --main-white: #ffffff;
+  --back-ground-black: #2f303a;
+  --back-ground-grey: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: var(--main-white);
+  color: var(--main-black);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* logo */
+
+.logo {
+  text-decoration: none;
+  color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-text-blu {
+  color: var(--active-blu);
+}
+
+/* site navigation*/
+
+.link:hover,
+.link:focus {
+  color: var(--active-blu);
+}
+
+.list-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-nav {
+  color: var(--second-black);
+}
+
+.contact {
+  color: var(--main-black);
+}
+
+.primary-link {
+  color: var(--active-blu);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--back-ground-black);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--main-white);
+}
+
+/* section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--second-black);
+}
+
+.advantage-title {
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--second-black);
+}
+
+.team-section {
+  background-color: var(--back-ground-grey);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--second-black);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* footer*/
+
+.footer {
+  background-color: var(--back-ground-black);
+}
+
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-white);
+}
+
+.map {
+  font-style: normal;
+  color: var(--main-white);
+}
+
+.contact-footer {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* buttons */
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--main-white);
+  background-color: var(--active-blu);
+}
+
+.primary-button {
+  cursor: pointer;
+  color: var(--main-white);
+  background-color: var(--active-blu);
+}
+
+.button {
+  cursor: pointer;
+  color: var(--second-black);
+  background-color: var(--back-ground-grey);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--active-blu);
+  color: var(--main-white);
+}
+
+/* portfolio*/
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-black);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-black);
+}
